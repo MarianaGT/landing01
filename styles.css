@@ -5,3 +5,8 @@ body {
 h1, h3  {
   font-weight: 500;
 }
+
+.s-1 img {
+  border-radius: 18px;
+  width: 100%;
+}
