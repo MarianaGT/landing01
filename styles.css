@@ -2,11 +2,18 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+body img {
+  border-radius: 18px;
+}
+
 h1, h3  {
   font-weight: 500;
 }
 
+p {
+  font-weight: 400;
+}
+
 .s-1 img {
-  border-radius: 18px;
   width: 100%;
 }
