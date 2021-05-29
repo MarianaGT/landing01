@@ -29,8 +29,19 @@ p {
   font-weight: 400;
 }
 
-a {
+header {
+ padding: 2em;
+ display: flex;
+ justify-content: space-between;
+}
+
+header a {
   text-decoration: none;
+  color: var(--gray);
+}
+
+.navlinks {
+  display: none;
 }
 
 .blue {
@@ -62,4 +73,14 @@ a {
 
 .services-card:hover {
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 940px) {
+  .navlinks {
+    display: inline-block;
+  }
+
+  .navlinks a {
+    margin: 0 2em;
+  }
 }
