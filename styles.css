@@ -83,4 +83,8 @@ header a {
   .navlinks a {
     margin: 0 2em;
   }
+
+  #menu {
+    display: none;
+  }
 }
