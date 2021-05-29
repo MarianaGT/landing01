@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #4E5150;
+  --primary-blue: #2d9cdb;
   --gray: #333;
   --light-gray: #828282;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: var(--gray);
 }
 
 body img {
@@ -20,9 +21,26 @@ h1 {
   font-size: 2em;
 }
 
+h2 {
+  font-size: 1.7em;
+}
+
 p {
   font-weight: 400;
 }
+
+a {
+  text-decoration: none;
+}
+
+.blue {
+  color: var(--primary-blue);
+}
+
+.light-gray {
+  color: var(--light-gray);
+}
+
 
 .s-1 img {
   width: 100%;
