@@ -6,8 +6,12 @@ body img {
   border-radius: 18px;
 }
 
-h1, h3  {
+h1, h2  {
   font-weight: 500;
+}
+
+h1 {
+  font-size: 2em;
 }
 
 p {
