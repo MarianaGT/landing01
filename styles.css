@@ -4,7 +4,7 @@
   --light-gray: #828282;
 }
 
-body {
+body, button {
   font-family: 'Poppins', sans-serif;
   color: var(--gray);
 }
@@ -41,7 +41,25 @@ a {
   color: var(--light-gray);
 }
 
+.secondary {
+  border: none;
+  border-radius: 12px;
+  padding: 0.5em 1em;
+}
+
+.secondary:hover {
+  background-color: var(--primary-blue);
+  color: white;
+}
 
 .s-1 img {
   width: 100%;
+}
+
+.services-card {
+  padding: 2em;
+}
+
+.services-card:hover {
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
