@@ -70,13 +70,20 @@ header a {
   background-color: var(--green);
 }
 
-.secondary {
+.bt-primary {
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.7em 1.5em;
+}
+
+.bt-secondary {
   border: none;
   border-radius: 12px;
   padding: 0.5em 1em;
 }
 
-.secondary:hover {
+.bt-secondary:hover {
   background-color: var(--primary-blue);
   color: white;
 }
