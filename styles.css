@@ -6,6 +6,10 @@
   --green: #27AE60;
 }
 
+body {
+  padding: 1em;
+}
+
 body, button {
   font-family: 'Poppins', sans-serif;
   color: var(--gray);
@@ -77,8 +81,13 @@ header a {
   color: white;
 }
 
-.s-1 img {
+#home img {
   width: 100%;
+  padding: 0;
+}
+
+#home p:first-child {
+  margin-bottom: -1.5em;
 }
 
 .services-card {
