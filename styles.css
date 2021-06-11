@@ -2,6 +2,8 @@
   --primary-blue: #2d9cdb;
   --gray: #333;
   --light-gray: #828282;
+  --red: #EB5757;
+  --green: #27AE60;
 }
 
 body, button {
@@ -57,7 +59,11 @@ header a {
 }
 
 .bg-red {
-  background-color: red;
+  background-color: var(--red);
+}
+
+.bg-green {
+  background-color: var(--green);
 }
 
 .secondary {
