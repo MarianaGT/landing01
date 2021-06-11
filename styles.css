@@ -79,7 +79,6 @@ header a {
   border: none;
   border-radius: 12px;
   padding: 0.7em 1.5em;
-  display: inline-block;
 }
 
 .bt-secondary {
@@ -116,14 +115,17 @@ header a {
   padding: 1em;
 }
 
+.contact-form {
+
+}
 .contact-form input {
   border: none;
   padding: 0.9em;
+  width: 50%;
 }
 
 .contact-form label {
-  border: none;
-  padding: 0.9em;
+  font-size: 0.8em;
 }
 
 @media only screen and (min-width: 940px) {
