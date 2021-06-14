@@ -44,7 +44,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: var(--gray);
+  color: var(--dark-gray);
 }
 
 .navlinks {
