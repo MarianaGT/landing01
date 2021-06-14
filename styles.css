@@ -154,4 +154,9 @@ header a {
   #menu {
     display: none;
   }
+
+  .services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
