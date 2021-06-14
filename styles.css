@@ -55,6 +55,14 @@ header a {
   color: var(--primary-blue);
 }
 
+.red {
+  color: var(--red);
+}
+
+.gray {
+  color: var(--gray);
+}
+
 .light-gray {
   color: var(--light-gray);
 }
@@ -98,7 +106,7 @@ header a {
   padding: 0;
 }
 
-#home p:first-child {
+#home p:first-child, #clients p:first-child {
   margin-bottom: -1.5em;
 }
 
