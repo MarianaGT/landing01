@@ -152,13 +152,18 @@ header a {
   margin-bottom: 1.5em;
 }
 
-#works .flex {
+.flex {
   display: flex;
   align-items: center;
 }
 
 #works a {
   text-decoration: none;
+}
+
+#clients img {
+  width: 50%;
+  margin: 1em;
 }
 
 @media only screen and (min-width: 940px) {
@@ -183,7 +188,7 @@ header a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .works-box {
+  .works-box, #clients {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -192,4 +197,5 @@ header a {
     margin: 1.5em 1em;
     padding-bottom: 0.5em;
   }
+
 }
