@@ -140,7 +140,7 @@ header a {
   margin-bottom: -1em;
 }
 
-#works h3 {
+.work-box {
   margin-bottom: 1.5em;
 }
 
@@ -173,5 +173,20 @@ header a {
   .services-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .works-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .work-box {
+    margin: 1.5em 1em;
+    padding-bottom: 0.5em;
+  }
+
+  #works .flex {
+    display: flex;
+    align-items: center;
   }
 }
