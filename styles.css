@@ -188,6 +188,21 @@ header a {
   display: flex;
 }
 
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .flex {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (min-width: 940px) {
   .navlinks {
     display: inline-block;
