@@ -198,7 +198,7 @@ footer a {
   text-decoration: none;
 }
 
-footer .flex {
+footer .links {
   display: flex;
   flex-direction: column;
 }
