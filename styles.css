@@ -193,9 +193,9 @@ footer {
   color: white;
 }
 
-footer {
-  background-color: black;
+footer a {
   color: white;
+  text-decoration: none;
 }
 
 footer .flex {
