@@ -177,6 +177,11 @@ header a {
 
 #clients-quote img {
   height: 5em;
+  margin-right: 1em;
+}
+
+#clients-quote h3 {
+  line-height: 0.5em;
 }
 
 #clients-quote .flex {
